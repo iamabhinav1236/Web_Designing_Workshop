@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Background and Links</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("tiger.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        .box {
+            margin: 40px;
+            padding: 30px;
+            background-color: white;
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>CSS Background and Links</h1>
+
+        <p>Different CSS link states are demonstrated below.</p>
+
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+
+        <br><br>
+
+        <a href="https://www.wikipedia.org" target="_blank">
+            Visit Wikipedia
+        </a>
+
+    </div>
+
+</body>
+</html>

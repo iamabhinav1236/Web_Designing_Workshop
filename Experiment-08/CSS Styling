@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Styling</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("tiger.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            color: darkblue;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            margin: 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .highlight {
+            background-image: url("tiger.jpg");
+            background-size: cover;
+            padding: 15px;
+            color: black;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>CSS Styling Demonstration</h1>
+
+        <p>This paragraph demonstrates basic CSS styling.</p>
+
+        <p class="bold">This text is bold.</p>
+
+        <p class="italic">This text is italic.</p>
+
+        <div class="highlight">
+            <h3>Background Image Example</h3>
+            <p>This element uses a separate background image.</p>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>

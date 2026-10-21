@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Online Book Store
-        </title>
+        <title>Online Book Store</title>
     </head>
+
     <frameset rows="40%,*">
-        <!--- Top Frame--->
-        <frame 
-            src="top.html"
-            name="topframe"
+
+        <!-- Top Frame -->
+         <frame
+            src = "top.html"
+            name = "topframe"
             noresize
             scrolling="no"
-        >
+        ></frame>
+
         <frameset cols="15%,*">
-            <frame 
+
+            <!--- Left Navigation Frame -->
+            <frame
                 src="left.html"
                 name="leftframe"
                 noresize
                 scrolling="no"
-            >
-            <frame 
+            ></frame>
+
+            <!-- Main Content Frame -->
+            <frame
                 src="right.html"
                 name="rightframe"
                 noresize
                 scrolling="auto"
-            >
+            ></frame>
 
         </frameset>
+
     </frameset>
     
 </html>

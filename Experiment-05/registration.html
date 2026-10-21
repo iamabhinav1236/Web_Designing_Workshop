@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body bgcolor="aqua">
+
+    <center>
+
+        <h1>REGISTER YOURSELF</h1>
+        <font face="Brush Script MT" size="7" color="purple">
+            <b>Enter Your Details</b>
+        </font>
+        <br><br>
+        <form method="post" action="right.html" onsubmit="return validateForm() && validateContact()">
+
+            <table>
+
+                <tr>
+                    <td><b>Name : </b></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Password : </b></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+
+                <tr>
+                    <td><b>E-mail ID : </b></td>
+                    <td><input type="text" id="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Phone Number : </b></td> 
+                    <td><input type="tel" id="phone" name="phone" maxlength="10"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Sex : </b></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Transgender">Transgender
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Date Of Birth : </b></td>
+                    <td>
+                        <select name="Day" required>
+                            <option value="">Day</option>
+                            <script>
+                                for(let i = 1 ; i <= 31 ;i++){
+                                    document.write("<option value="+i+">"+i+"</option>");
+                                }
+                            </script>
+                        </select>
+                        <select name="month" required>
+                            <option value="">Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select>
+                            <option value="">Year</option>
+                            <script>
+                                for(let i = 1960 ; i <= 2026 ; i++){
+                                    document.write("<option value="+i+">"+i+"</option>")
+                                }
+                            </script>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Languages : </b></td>
+                    <td>
+                        <input type="checkbox" name="Language" value="English">English
+                        <input type="checkbox" name="Language" value="Hindi">Hindi
+                        <input type="checkbox" name="Language" value="Telugu">Telugu
+                        <input type="checkbox" name="Language" value="Tamil">Tamil
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Address : </b></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr align="center">
+                    <td><input type="submit" value="Register"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+
+                </font>
+
+            </table>
+
+        </form>
+
+    </center>
+    
+    <script src="NamePass.js"></script>
+    <script src="MailPhone.js"></script>
+
+</body>
+</html>

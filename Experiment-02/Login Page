@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Using HTML</title>
+</head>
+<body bgcolor="aqua">
+
+    <center>
+
+        <h1>LOGIN PAGE</h1>
+        <font face="Brush Script MT" size="7" color="purple">
+            <b>Enter Login Details</b>
+        </font>
+        <br><br>
+        <form method="post" action="right.html">
+
+            <table>
+
+                <tr>
+                    <td><b>Username</b></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Password</b></td>
+                    <td><input type="password"></td>
+                </tr>
+
+                <tr align="center">
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </center>
+    
+</body>
+</html>

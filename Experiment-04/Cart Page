@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+<body bgcolor="aqua">
+
+    <center>
+        <h1>Shopping Cart</h1>
+    </center>
+
+    <table border="1" width="100%" cellpadding="10" cellspacing="0">
+
+        <tr bgcolor="lightblue">
+            <th>Book Cover</th>
+            <th>Book Details</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="web technologies book cover.jpg" width="100" height="100" alt="Web Technologies Book Cover">
+            </td>
+
+            <td>
+                <b>Book:</b> Web Technologies<br>
+                <b>Author:</b> Uttam K. Roy<br>
+                <b>Publisher:</b> Oxford University Press
+            </td>
+
+            <td align="center">₹531</td>
+
+            <td align="center">1</td>
+
+            <td align="center">₹531</td>
+
+            <td align="center">
+                <button type="button">Remove</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="PHP And SQL Web Dev Book cover.jpg" width="100" height="100" alt="PHP &amp; MySQL Web Development Book Cover">
+            </td>
+
+            <td>
+                <b>Book: </b>PHP &amp; MySQL Web Development<br>
+                <b>Author: </b>Luke Welling &amp; Laura Thomson<br>
+                <b>Publisher:</b>Pearson
+            </td>
+
+            <td align="center">₹898</td>
+
+            <td align="center">1</td>
+
+            <td align="center">₹898</td>
+
+            <td align="center">
+                <button type="button">Remove</button>
+            </td>
+        </tr>
+
+        <tr bgcolor="lightgreen">
+            <td colspan="4" align="right">
+                <b>Grand Total</b>
+            </td>
+
+            <td align="center">
+                <b>₹1429</b>
+            </td>
+
+            <td align="cenetr">
+                <button type="button">Checkout</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <center>
+        <a href="catalogue.html">Continue Shopping</a>
+    </center>
+    
+</body>
+</html>

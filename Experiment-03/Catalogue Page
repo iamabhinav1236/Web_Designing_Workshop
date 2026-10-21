@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+</head>
+<body bgcolor = "pink">
+
+    <form action="order.html">
+        
+        <table border="1" width="100%">
+            <tr>
+                <td>
+                    <img src="web technologies book cover.jpg" width="100" height="100" alt="Eb Technologies Book Cover">
+                </td>
+
+                <td>
+                    Book : Web Technologies <br>
+                    Author : Uttam K. Roy <br>
+                    Publisher : Oxford University Press
+                </td>
+
+                <td>
+                    ₹531
+                </td>
+
+                <td>
+                    <input type="submit" value="Add to Cart">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="PHP And SQL Web Dev Book cover.jpg" width="100" height="100" alt="PHP and MySQL Web Development Book Cover">
+                </td>
+
+                <td>
+                    Book : PHP &amp; MySQL Web Development <br>
+                    Author : Luke Welling &amp; Laura Thomson <br>
+                    Publisher : Pearson  
+                </td>
+
+                <td>
+                    ₹898
+                </td>
+
+                <td>
+                    <input type="submit" value="Add to Cart">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
